@@ -1,4 +1,4 @@
-# Newpolitan
+# Minteresting
 A rich chocolatey theme that's easy on the eyes.
 
 ### Installation
@@ -7,7 +7,7 @@ A rich chocolatey theme that's easy on the eyes.
 
 + Simply open up the command palette (`CTRL+SHIFT+P` or `CMD+SHIFT+P`).
 + Find `Package Control: Install Package`.
-+ Search for `Newpolitan`
++ Search for `Minteresting`
 
 ##### Manual
 
@@ -18,16 +18,16 @@ A rich chocolatey theme that's easy on the eyes.
 
 Activate the theme by adding the following lines to your user preferences configuration file
 
-      "color_scheme": "Packages/Newpolitan/Newpolitan.tmTheme",
-      "theme": "Newpolitan.sublime-theme",
+      "color_scheme": "Packages/Minteresting/Minteresting.tmTheme",
+      "theme": "Minteresting.sublime-theme",
       
 [RubyTest](https://packagecontrol.io/packages/RubyTest) users may also enjoy the provided test console theme for consistency:
 
-      "theme": "Packages/Newpolitan/NewpolitanTestConsole.tmTheme"
+      "theme": "Packages/Minteresting/MinterestingTestConsole.tmTheme"
       
 ### Screenshots
 
-![Newpolitan screenshot](https://raw.githubusercontent.com/daytonn/Newpolitan/master/screenshot.png "Newpolitan screenshot")
+![Minteresting screenshot](https://raw.githubusercontent.com/daytonn/Minteresting/master/screenshot.png "Minteresting screenshot")
 
 ### Theme
 

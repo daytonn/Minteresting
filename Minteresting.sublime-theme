@@ -1,7 +1,7 @@
 [
-  // Dark Brown [43, 36, 32]
-  // Medium Brown [58, 47, 42]
-  // Light Brown [63, 50, 44]
+  // Dark Brown [23, 23, 23]
+  // Medium Brown [44, 44, 44]
+  // Light Brown [48, 48, 48]
   // Super Light Brown [108, 80, 62]
   // Dark Grey [128, 128, 128]
   // Orange [244, 96, 44]
@@ -11,7 +11,7 @@
   {
     "class": "tabset_control",
     "layer0.texture": "",
-    "layer0.tint": [43, 36, 32],
+    "layer0.tint": [23, 23, 23],
     "layer1.inner_margin": 0,
     "layer0.opacity": 1,
     "content_margin": 0,
@@ -33,7 +33,7 @@
     "max_margin_trim": 0,
     "hit_test_level": 0,
     "layer0.texture": "",
-    "layer0.tint": [43, 36, 32],
+    "layer0.tint": [23, 23, 23],
     "layer0.inner_margin": [5,5],
     "layer0.opacity": 1
   },
@@ -53,7 +53,7 @@
     "class": "tab_control",
     "attributes": ["selected"],
     "layer0.texture": "",
-    "layer0.tint": [39, 31, 25]
+    "layer0.tint": [29, 29, 29]
   },
   // Tab dirty state (close button hidden)
   {
@@ -66,7 +66,7 @@
   // Tab close button
   {
     "class": "tab_close_button",
-    "layer0.texture": "User/Newpolitan/Newpolitan/close.png",
+    "layer0.texture": "Minteresting/Minteresting/close.png",
     "layer0.opacity": 0,
     "layer0.tint": [128, 128, 128]
   },
@@ -78,7 +78,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control","attributes": ["hover"]}],
-    "layer0.texture": "User/Newpolitan/Newpolitan/close.png",
+    "layer0.texture": "Minteresting/Minteresting/close.png",
     "layer0.opacity": 1
   },
   {
@@ -97,7 +97,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-    "layer0.texture": "User/Newpolitan/Newpolitan/circle.png",
+    "layer0.texture": "Minteresting/Minteresting/circle.png",
     "layer0.tint": [244, 96, 44],
     "layer0.opacity": 1
   },
@@ -111,7 +111,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-    "layer0.texture": "User/Newpolitan/Newpolitan/close.png",
+    "layer0.texture": "Minteresting/Minteresting/close.png",
     "attributes": ["hover"],
     "layer0.opacity": 1,
     "layer0.tint": [128, 0, 0]
@@ -163,7 +163,7 @@
   // FOLD BUTTONS
   {
     "class": "fold_button_control",
-    "layer0.texture": "User/Newpolitan/Newpolitan/folder-closed.png",
+    "layer0.texture": "Minteresting/Minteresting/folder-closed.png",
     "layer0.tint": [160, 159, 147],
     "layer0.opacity": 0.5,
     "layer0.inner_margin": 0,
@@ -177,7 +177,7 @@
   {
     "class": "fold_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "User/Newpolitan/Newpolitan/folder-open.png"
+    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
   },
   {
     "class": "fold_button_control",
@@ -187,7 +187,7 @@
   {
     "class": "scroll_bar_control",
     "layer0.texture": "",
-    "layer0.tint": [39, 31, 25],
+    "layer0.tint": [29, 29, 29],
     "layer0.opacity": 1,
     "layer0.inner_margin": [0,0],
     "blur": true
@@ -197,7 +197,7 @@
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
     "layer0.texture": "",
-    "layer0.tint": [39, 31, 25],
+    "layer0.tint": [29, 29, 29],
     "layer0.inner_margin": [0,0],
     "blur": true
   },
@@ -205,7 +205,7 @@
   {
     "class": "scroll_corner_control",
     "layer0.texture": "",
-    "layer0.tint": [39, 31, 25],
+    "layer0.tint": [29, 29, 29],
     "layer0.inner_margin": [0,0],
     "layer0.opacity": 1
   },
@@ -213,7 +213,7 @@
   {
     "class": "puck_control",
     "layer0.texture": "",
-    "layer0.tint": [58, 47, 42],
+    "layer0.tint": [44, 44, 44],
     "layer0.opacity": 1,
     "layer0.inner_margin": [0,0],
     "content_margin": [1,0],
@@ -224,7 +224,7 @@
     "class": "puck_control",
     "attributes": ["horizontal"],
     //"layer0.texture": "",
-    "layer0.tint": [58, 47, 42],
+    "layer0.tint": [44, 44, 44],
     "layer0.inner_margin": [0,0],
     "content_margin": [1,1],
     "blur": false
@@ -245,7 +245,7 @@
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
     //"layer0.texture": "",
-    "layer0.tint": [39, 31, 25],
+    "layer0.tint": [29, 29, 29],
     "layer0.inner_margin": [0,5],
     "layer0.opacity": 0,
     "blur": false
@@ -284,7 +284,7 @@
     "settings": ["overlay_scroll_bars"],
     "attributes": ["dark"],
     //"layer0.texture": "",
-    "layer0.tint": [39, 31, 25]
+    "layer0.tint": [29, 29, 29]
   },
   // Overlay light horizontal puck (for dark content)
   {
@@ -292,19 +292,19 @@
     "settings": ["overlay_scroll_bars"],
     "attributes": ["horizontal","dark"],
     //"layer0.texture": "",
-    "layer0.tint": [39, 31, 25]
+    "layer0.tint": [29, 29, 29]
   },
   // EMPTY WINDOW BACKGROUND
   {
     "class": "sheet_container_control",
-    "layer0.tint": [39,31,25],
+    "layer0.tint": [23, 23, 23],
     "layer0.opacity": 1
   },
   // GRID LAYOUT
   {
     "class": "grid_layout_control",
     "border_size": 1,
-    "border_color": [63, 50, 44]
+    "border_color": [15, 15, 15]
   },
   // MINI MAP
   {
@@ -350,7 +350,7 @@
   {
     "class": "status_bar",
     "layer0.texture": "",
-    "layer0.tint": [32, 28, 26],
+    "layer0.tint": [23, 23, 23],
     "layer0.opacity": 1,
     "content_margin": 4
   },
@@ -371,7 +371,7 @@
     "class": "sidebar_container",
     //"layer0.texture": "",
     "layer0.opacity": 1,
-    "layer0.tint": [32, 28, 26],
+    "layer0.tint": [23, 23, 23],
     "layer0.inner_margin": [0,0,0,1],
     "content_margin": [0,0,0,0]
   },
@@ -388,7 +388,7 @@
   {
     "class": "tree_row",
     //"layer0.texture": "",
-    "layer0.tint": [39, 31, 25],
+    "layer0.tint": [29, 29, 29],
     "layer0.opacity": 0,
     "layer0.inner_margin": [1,1]
   },
@@ -401,7 +401,7 @@
   // Sidebar heading
   {
     "class": "sidebar_heading",
-    "color": [43, 36, 32],
+    "color": [23, 23, 23],
     "font.bold": false
   },
   // Sidebar heading selected
@@ -444,7 +444,7 @@
   // Sidebar file close
   {
     "class": "close_button",
-    "layer0.texture": "User/Newpolitan/Newpolitan/close.png",
+    "layer0.texture": "Minteresting/Minteresting/close.png",
     "layer0.opacity": 0,
     "layer0.inner_margin": 0,
     "layer0.tint": [81, 81, 81],
@@ -464,7 +464,7 @@
   {
     "class": "close_button",
     "attributes": ["dirty"],
-    "layer0.texture": "User/Newpolitan/Newpolitan/circle.png",
+    "layer0.texture": "Minteresting/Minteresting/circle.png",
     "layer0.opacity": 1,
     "layer0.tint": [254, 204, 102]
   },
@@ -472,7 +472,7 @@
     "class": "close_button",
     "attributes": ["dirty"],
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "layer0.texture": "User/Newpolitan/Newpolitan/circle.png"
+    "layer0.texture": "Minteresting/Minteresting/circle.png"
   },
   // Sidebar file close hover
   {
@@ -484,7 +484,7 @@
     "class": "close_button",
     "attributes": ["dirty", "hover"],
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    "layer0.texture": "User/Newpolitan/Newpolitan/close.png",
+    "layer0.texture": "Minteresting/Minteresting/close.png",
     "layer0.tint": [242, 119, 122]
   },
   // SIDEBAR - GENERAL FILE ICONS
@@ -492,7 +492,7 @@
   {
     "class": "disclosure_button_control",
     "content_margin": [8,8],
-    "layer0.texture": "User/Newpolitan/Newpolitan/folder-closed.png",
+    "layer0.texture": "Minteresting/Minteresting/folder-closed.png",
     "layer0.tint": [200, 200, 200],
     "layer0.opacity": 1,
     "layer0.inner_margin": 0
@@ -510,7 +510,7 @@
   {
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
-    "layer0.texture": "User/Newpolitan/Newpolitan/folder-closed.png"
+    "layer0.texture": "Minteresting/Minteresting/folder-closed.png"
   },
   {
     "class": "disclosure_button_control",
@@ -521,13 +521,13 @@
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "layer0.texture": "User/Newpolitan/Newpolitan/folder-closed.png"
+    "layer0.texture": "Minteresting/Minteresting/folder-closed.png"
   },
   // Sidebar group open
   {
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "User/Newpolitan/Newpolitan/folder-open.png"
+    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
   },
   {
     "class": "disclosure_button_control",
@@ -538,7 +538,7 @@
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "layer0.texture": "User/Newpolitan/Newpolitan/folder-open.png"
+    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
   },
   {
       "class": "icon_file_type",
@@ -557,21 +557,21 @@
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
     "attributes": ["expanded"],
-    "layer0.texture": "User/Newpolitan/Newpolitan/folder-open.png"
+    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
   },
   {
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
     "attributes": ["expanded"],
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    "layer0.texture": "User/Newpolitan/Newpolitan/folder-open.png"
+    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
   },
   {
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
     "attributes": ["expanded"],
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "layer0.texture": "User/Newpolitan/Newpolitan/folder-open.png"
+    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
   },
   // STANDARD TEXT BUTTONS
   // Default button state
@@ -581,7 +581,7 @@
     "min_size": [64,0],
     "layer0.texture": "",
     "layer0.opacity": 1,
-    "layer0.tint": [63, 50, 44],
+    "layer0.tint": [48, 48, 48],
     "layer0.inner_margin": [8,8]
   },
   // Hover button state
@@ -589,14 +589,14 @@
     "class": "button_control",
     "attributes": ["hover"],
     "layer0.texture": "",
-    "layer0.tint": [108, 80, 62]
+    "layer0.tint": [89, 89, 89]
   },
   // Pressed button state
   {
     "class": "button_control",
     "attributes": ["pressed"],
     "layer0.texture": "",
-    "layer0.tint": [63, 50, 44]
+    "layer0.tint": [48, 48, 48]
   },
   // TEXT INPUT FIELD
   // Text input field item
@@ -614,7 +614,7 @@
     "layer0.texture": "",
     "layer0.inner_margin": [0,0],
     "layer0.opacity": 1,
-    "layer0.tint": [32, 28, 26],
+    "layer0.tint": [23, 23, 23],
     "content_margin": 0
   },
   // Quick panel background
@@ -622,7 +622,7 @@
     "class": "overlay_control",
     "layer0.opacity": 1,
     "layer1.texture": "",
-    "layer1.tint": [32, 28, 26],
+    "layer1.tint": [23, 23, 23],
     "layer1.inner_margin": [0,0,0,0],
     "layer1.opacity": 1,
     "content_margin": 0
@@ -631,13 +631,13 @@
   {
     "class": "quick_panel",
     "row_padding": 4,
-    "layer0.tint": [32, 28, 26],
+    "layer0.tint": [23, 23, 23],
     "layer0.opacity": 1
   },
   {
     "class": "quick_panel_row",
     "layer0.texture": "",
-    "layer0.tint": [32, 28, 26],
+    "layer0.tint": [23, 23, 23],
     "layer0.inner_margin": 8,
     "layer0.opacity": 1
   },
@@ -645,7 +645,7 @@
     "class": "quick_panel_row",
     "attributes": ["selected"],
     "layer0.texture": "",
-    "layer0.tint": [38, 33, 31]
+    "layer0.tint": [32, 32, 32]
   },
   {
     "class": "quick_panel_label",
@@ -670,7 +670,7 @@
   {
     "class": "mini_quick_panel_row",
     "layer0.texture": "",
-    "layer0.tint": [63, 50, 44],
+    "layer0.tint": [48, 48, 48],
     "layer0.opacity": 1
   },
   {
@@ -683,7 +683,7 @@
   {
     "class": "popup_control",
     "content_margin": [0,0],
-    "layer0.tint": [63, 50, 44],
+    "layer0.tint": [48, 48, 48],
     "layer0.opacity": 1
   },
   {
@@ -765,7 +765,7 @@
   // Regex search button
   {
     "class": "icon_regex",
-    "layer0.texture": "User/Newpolitan/Newpolitan/regex.png",
+    "layer0.texture": "Minteresting/Minteresting/regex.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -779,7 +779,7 @@
   // Case sensitive search button
   {
     "class": "icon_case",
-    "layer0.texture": "User/Newpolitan/Newpolitan/casesens.png",
+    "layer0.texture": "Minteresting/Minteresting/casesens.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -792,7 +792,7 @@
   // Match whole word search button
   {
     "class": "icon_whole_word",
-    "layer0.texture": "User/Newpolitan/Newpolitan/wholeword.png",
+    "layer0.texture": "Minteresting/Minteresting/wholeword.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -806,7 +806,7 @@
   // Show search context button
   {
     "class": "icon_context",
-    "layer0.texture": "User/Newpolitan/Newpolitan/context.png",
+    "layer0.texture": "Minteresting/Minteresting/context.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -819,7 +819,7 @@
   // Use search buffer
   {
     "class": "icon_use_buffer",
-    "layer0.texture": "User/Newpolitan/Newpolitan/buffer.png",
+    "layer0.texture": "Minteresting/Minteresting/buffer.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -833,7 +833,7 @@
   // Reverse search direction button (ST2 only)
   {
     "class": "icon_reverse",
-    "layer0.texture": "User/Newpolitan/Newpolitan/reverse.png",
+    "layer0.texture": "Minteresting/Minteresting/reverse.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -846,7 +846,7 @@
   // Search wrap button
   {
     "class": "icon_wrap",
-    "layer0.texture": "User/Newpolitan/Newpolitan/wrap.png",
+    "layer0.texture": "Minteresting/Minteresting/wrap.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -859,7 +859,7 @@
   // Search in selection button
   {
     "class": "icon_in_selection",
-    "layer0.texture": "User/Newpolitan/Newpolitan/selection.png",
+    "layer0.texture": "Minteresting/Minteresting/selection.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -873,7 +873,7 @@
   // Preserve case button
   {
     "class": "icon_preserve_case",
-    "layer0.texture": "User/Newpolitan/Newpolitan/lock.png",
+    "layer0.texture": "Minteresting/Minteresting/lock.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -887,7 +887,7 @@
   // Highlight results button
   {
     "class": "icon_highlight",
-    "layer0.texture": "User/Newpolitan/Newpolitan/highlight.png",
+    "layer0.texture": "Minteresting/Minteresting/highlight.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8

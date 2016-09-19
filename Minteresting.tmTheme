@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Newpolitan</string>
+	<string>Minteresting</string>
 	<key>author</key>
 	<string>Dayton Nolan</string>
 	<key>settings</key>
@@ -12,7 +12,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#201C1A</string>
+				<string>#202020</string>
 				<key>caret</key>
 				<string>#FFFFFFA6</string>
 				<key>foreground</key>
@@ -22,7 +22,7 @@
 				<key>lineHighlight</key>
 				<string>#FFFFFF0F</string>
 				<key>selection</key>
-				<string>#253b76</string>
+				<string>#636363</string>
 			</dict>
 		</dict>
 		<dict>
