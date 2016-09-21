@@ -622,7 +622,7 @@
     "class": "overlay_control",
     "layer0.opacity": 1,
     "layer1.texture": "",
-    "layer1.tint": [23, 23, 23],
+    "layer1.tint": [35, 35, 35],
     "layer1.inner_margin": [0,0,0,0],
     "layer1.opacity": 1,
     "content_margin": 0
@@ -631,13 +631,13 @@
   {
     "class": "quick_panel",
     "row_padding": 4,
-    "layer0.tint": [23, 23, 23],
+    "layer0.tint": [35, 35, 35],
     "layer0.opacity": 1
   },
   {
     "class": "quick_panel_row",
     "layer0.texture": "",
-    "layer0.tint": [23, 23, 23],
+    "layer0.tint": [35, 35, 35],
     "layer0.inner_margin": 8,
     "layer0.opacity": 1
   },
@@ -645,7 +645,7 @@
     "class": "quick_panel_row",
     "attributes": ["selected"],
     "layer0.texture": "",
-    "layer0.tint": [32, 32, 32]
+    "layer0.tint": [23, 23, 23]
   },
   {
     "class": "quick_panel_label",
