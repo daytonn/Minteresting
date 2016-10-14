@@ -66,7 +66,7 @@
   // Tab close button
   {
     "class": "tab_close_button",
-    "layer0.texture": "Minteresting/Minteresting/close.png",
+    "layer0.texture": "User/Minteresting/Minteresting/close.png",
     "layer0.opacity": 0,
     "layer0.tint": [128, 128, 128]
   },
@@ -78,7 +78,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control","attributes": ["hover"]}],
-    "layer0.texture": "Minteresting/Minteresting/close.png",
+    "layer0.texture": "User/Minteresting/Minteresting/close.png",
     "layer0.opacity": 1
   },
   {
@@ -97,7 +97,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-    "layer0.texture": "Minteresting/Minteresting/circle.png",
+    "layer0.texture": "User/Minteresting/Minteresting/circle.png",
     "layer0.tint": [244, 96, 44],
     "layer0.opacity": 1
   },
@@ -111,7 +111,7 @@
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
-    "layer0.texture": "Minteresting/Minteresting/close.png",
+    "layer0.texture": "User/Minteresting/Minteresting/close.png",
     "attributes": ["hover"],
     "layer0.opacity": 1,
     "layer0.tint": [128, 0, 0]
@@ -163,7 +163,7 @@
   // FOLD BUTTONS
   {
     "class": "fold_button_control",
-    "layer0.texture": "Minteresting/Minteresting/folder-closed.png",
+    "layer0.texture": "User/Minteresting/Minteresting/folder-closed.png",
     "layer0.tint": [160, 159, 147],
     "layer0.opacity": 0.5,
     "layer0.inner_margin": 0,
@@ -177,7 +177,7 @@
   {
     "class": "fold_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
+    "layer0.texture": "User/Minteresting/Minteresting/folder-open.png"
   },
   {
     "class": "fold_button_control",
@@ -444,7 +444,7 @@
   // Sidebar file close
   {
     "class": "close_button",
-    "layer0.texture": "Minteresting/Minteresting/close.png",
+    "layer0.texture": "User/Minteresting/Minteresting/close.png",
     "layer0.opacity": 0,
     "layer0.inner_margin": 0,
     "layer0.tint": [81, 81, 81],
@@ -464,7 +464,7 @@
   {
     "class": "close_button",
     "attributes": ["dirty"],
-    "layer0.texture": "Minteresting/Minteresting/circle.png",
+    "layer0.texture": "User/Minteresting/Minteresting/circle.png",
     "layer0.opacity": 1,
     "layer0.tint": [254, 204, 102]
   },
@@ -472,7 +472,7 @@
     "class": "close_button",
     "attributes": ["dirty"],
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "layer0.texture": "Minteresting/Minteresting/circle.png"
+    "layer0.texture": "User/Minteresting/Minteresting/circle.png"
   },
   // Sidebar file close hover
   {
@@ -484,7 +484,7 @@
     "class": "close_button",
     "attributes": ["dirty", "hover"],
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    "layer0.texture": "Minteresting/Minteresting/close.png",
+    "layer0.texture": "User/Minteresting/Minteresting/close.png",
     "layer0.tint": [242, 119, 122]
   },
   // SIDEBAR - GENERAL FILE ICONS
@@ -492,7 +492,7 @@
   {
     "class": "disclosure_button_control",
     "content_margin": [8,8],
-    "layer0.texture": "Minteresting/Minteresting/folder-closed.png",
+    "layer0.texture": "User/Minteresting/Minteresting/folder-closed.png",
     "layer0.tint": [200, 200, 200],
     "layer0.opacity": 1,
     "layer0.inner_margin": 0
@@ -510,7 +510,7 @@
   {
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
-    "layer0.texture": "Minteresting/Minteresting/folder-closed.png"
+    "layer0.texture": "User/Minteresting/Minteresting/folder-closed.png"
   },
   {
     "class": "disclosure_button_control",
@@ -521,13 +521,13 @@
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "layer0.texture": "Minteresting/Minteresting/folder-closed.png"
+    "layer0.texture": "User/Minteresting/Minteresting/folder-closed.png"
   },
   // Sidebar group open
   {
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
+    "layer0.texture": "User/Minteresting/Minteresting/folder-open.png"
   },
   {
     "class": "disclosure_button_control",
@@ -538,7 +538,7 @@
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
+    "layer0.texture": "User/Minteresting/Minteresting/folder-open.png"
   },
   {
       "class": "icon_file_type",
@@ -557,21 +557,21 @@
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
     "attributes": ["expanded"],
-    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
+    "layer0.texture": "User/Minteresting/Minteresting/folder-open.png"
   },
   {
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
     "attributes": ["expanded"],
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
+    "layer0.texture": "User/Minteresting/Minteresting/folder-open.png"
   },
   {
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
     "attributes": ["expanded"],
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
+    "layer0.texture": "User/Minteresting/Minteresting/folder-open.png"
   },
   // STANDARD TEXT BUTTONS
   // Default button state
@@ -765,7 +765,7 @@
   // Regex search button
   {
     "class": "icon_regex",
-    "layer0.texture": "Minteresting/Minteresting/regex.png",
+    "layer0.texture": "User/Minteresting/Minteresting/regex.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -779,7 +779,7 @@
   // Case sensitive search button
   {
     "class": "icon_case",
-    "layer0.texture": "Minteresting/Minteresting/casesens.png",
+    "layer0.texture": "User/Minteresting/Minteresting/casesens.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -792,7 +792,7 @@
   // Match whole word search button
   {
     "class": "icon_whole_word",
-    "layer0.texture": "Minteresting/Minteresting/wholeword.png",
+    "layer0.texture": "User/Minteresting/Minteresting/wholeword.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -806,7 +806,7 @@
   // Show search context button
   {
     "class": "icon_context",
-    "layer0.texture": "Minteresting/Minteresting/context.png",
+    "layer0.texture": "User/Minteresting/Minteresting/context.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -819,7 +819,7 @@
   // Use search buffer
   {
     "class": "icon_use_buffer",
-    "layer0.texture": "Minteresting/Minteresting/buffer.png",
+    "layer0.texture": "User/Minteresting/Minteresting/buffer.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -833,7 +833,7 @@
   // Reverse search direction button (ST2 only)
   {
     "class": "icon_reverse",
-    "layer0.texture": "Minteresting/Minteresting/reverse.png",
+    "layer0.texture": "User/Minteresting/Minteresting/reverse.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -846,7 +846,7 @@
   // Search wrap button
   {
     "class": "icon_wrap",
-    "layer0.texture": "Minteresting/Minteresting/wrap.png",
+    "layer0.texture": "User/Minteresting/Minteresting/wrap.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -859,7 +859,7 @@
   // Search in selection button
   {
     "class": "icon_in_selection",
-    "layer0.texture": "Minteresting/Minteresting/selection.png",
+    "layer0.texture": "User/Minteresting/Minteresting/selection.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -873,7 +873,7 @@
   // Preserve case button
   {
     "class": "icon_preserve_case",
-    "layer0.texture": "Minteresting/Minteresting/lock.png",
+    "layer0.texture": "User/Minteresting/Minteresting/lock.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -887,7 +887,7 @@
   // Highlight results button
   {
     "class": "icon_highlight",
-    "layer0.texture": "Minteresting/Minteresting/highlight.png",
+    "layer0.texture": "User/Minteresting/Minteresting/highlight.png",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
