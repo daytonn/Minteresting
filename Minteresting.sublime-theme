@@ -414,7 +414,7 @@
   {
     "class": "sidebar_label",
     "color": [128, 128, 128],
-    "font.size": 16
+    "font.size": 14
   },
   // Sidebar folder entry
   {
