@@ -65,8 +65,8 @@
   // TAB BUTTONS
   // Tab close button
   {
-    "class": "tab_close_button",
     "layer0.texture": "Minteresting/Minteresting/close.png",
+    "class": "tab_close_button",
     "layer0.opacity": 0,
     "layer0.tint": [128, 128, 128]
   },
@@ -77,8 +77,8 @@
   },
   {
     "class": "tab_close_button",
-    "parents": [{"class": "tab_control","attributes": ["hover"]}],
     "layer0.texture": "Minteresting/Minteresting/close.png",
+    "parents": [{"class": "tab_control","attributes": ["hover"]}],
     "layer0.opacity": 1
   },
   {
@@ -96,8 +96,8 @@
   // Tab dirty button
   {
     "class": "tab_close_button",
-    "parents": [{"class": "tab_control","attributes": ["dirty"]}],
     "layer0.texture": "Minteresting/Minteresting/circle.png",
+    "parents": [{"class": "tab_control","attributes": ["dirty"]}],
     "layer0.tint": [244, 96, 44],
     "layer0.opacity": 1
   },
@@ -110,8 +110,8 @@
   },
   {
     "class": "tab_close_button",
-    "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
     "layer0.texture": "Minteresting/Minteresting/close.png",
+    "parents": [{"class": "tab_control","attributes": ["dirty","hover"]}],
     "attributes": ["hover"],
     "layer0.opacity": 1,
     "layer0.tint": [128, 0, 0]
@@ -162,8 +162,8 @@
   },
   // FOLD BUTTONS
   {
-    "class": "fold_button_control",
     "layer0.texture": "Minteresting/Minteresting/folder-closed.png",
+    "class": "fold_button_control",
     "layer0.tint": [160, 159, 147],
     "layer0.opacity": 0.5,
     "layer0.inner_margin": 0,
@@ -176,8 +176,8 @@
   },
   {
     "class": "fold_button_control",
-    "attributes": ["expanded"],
     "layer0.texture": "Minteresting/Minteresting/folder-open.png"
+    "attributes": ["expanded"],
   },
   {
     "class": "fold_button_control",
@@ -442,8 +442,8 @@
   // SIDEBAR - OPEN FILE ICONS
   // Sidebar file close
   {
-    "class": "close_button",
     "layer0.texture": "Minteresting/Minteresting/close.png",
+    "class": "close_button",
     "layer0.opacity": 0,
     "layer0.inner_margin": 0,
     "layer0.tint": [81, 81, 81],
@@ -462,16 +462,16 @@
   // Sidebar file dirty
   {
     "class": "close_button",
-    "attributes": ["dirty"],
     "layer0.texture": "Minteresting/Minteresting/circle.png",
+    "attributes": ["dirty"],
     "layer0.opacity": 1,
     "layer0.tint": [254, 204, 102]
   },
   {
     "class": "close_button",
     "attributes": ["dirty"],
-    "parents": [{"class": "tree_row","attributes": ["selected"]}],
     "layer0.texture": "Minteresting/Minteresting/circle.png"
+    "parents": [{"class": "tree_row","attributes": ["selected"]}],
   },
   // Sidebar file close hover
   {
@@ -482,16 +482,16 @@
   {
     "class": "close_button",
     "attributes": ["dirty", "hover"],
-    "parents": [{"class": "tree_row","attributes": ["hover"]}],
     "layer0.texture": "Minteresting/Minteresting/close.png",
+    "parents": [{"class": "tree_row","attributes": ["hover"]}],
     "layer0.tint": [242, 119, 122]
   },
   // SIDEBAR - GENERAL FILE ICONS
   // Sidebar group closed
   {
     "class": "disclosure_button_control",
-    "content_margin": [8,8],
     "layer0.texture": "Minteresting/Minteresting/folder-closed.png",
+    "content_margin": [8,8],
     "layer0.tint": [200, 200, 200],
     "layer0.opacity": 1,
     "layer0.inner_margin": 0
@@ -508,8 +508,8 @@
   // Sidebar folder closed
   {
     "class": "disclosure_button_control",
-    "settings": ["soda_folder_icons"],
     "layer0.texture": "Minteresting/Minteresting/folder-closed.png"
+    "settings": ["soda_folder_icons"],
   },
   {
     "class": "disclosure_button_control",
@@ -519,14 +519,14 @@
   {
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
-    "parents": [{"class": "tree_row","attributes": ["selected"]}],
     "layer0.texture": "Minteresting/Minteresting/folder-closed.png"
+    "parents": [{"class": "tree_row","attributes": ["selected"]}],
   },
   // Sidebar group open
   {
     "class": "disclosure_button_control",
-    "attributes": ["expanded"],
     "layer0.texture": "Minteresting/Minteresting/folder-open.png"
+    "attributes": ["expanded"],
   },
   {
     "class": "disclosure_button_control",
@@ -536,8 +536,8 @@
   {
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
-    "parents": [{"class": "tree_row","attributes": ["selected"]}],
     "layer0.texture": "Minteresting/Minteresting/folder-open.png"
+    "parents": [{"class": "tree_row","attributes": ["selected"]}],
   },
   {
       "class": "icon_file_type",
@@ -555,22 +555,22 @@
   {
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
-    "attributes": ["expanded"],
     "layer0.texture": "Minteresting/Minteresting/folder-open.png"
+    "attributes": ["expanded"],
   },
   {
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
     "attributes": ["expanded"],
+    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    "layer0.texture": "Minteresting/Minteresting/folder-open.png"
   },
   {
     "class": "disclosure_button_control",
     "settings": ["soda_folder_icons"],
     "attributes": ["expanded"],
-    "parents": [{"class": "tree_row","attributes": ["selected"]}],
     "layer0.texture": "Minteresting/Minteresting/folder-open.png"
+    "parents": [{"class": "tree_row","attributes": ["selected"]}],
   },
   // STANDARD TEXT BUTTONS
   // Default button state
@@ -763,8 +763,8 @@
   // BOTTOM PANEL ICONS - GROUP 1
   // Regex search button
   {
-    "class": "icon_regex",
     "layer0.texture": "Minteresting/Minteresting/regex.png",
+    "class": "icon_regex",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -777,8 +777,8 @@
   },
   // Case sensitive search button
   {
-    "class": "icon_case",
     "layer0.texture": "Minteresting/Minteresting/casesens.png",
+    "class": "icon_case",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -790,8 +790,8 @@
   },
   // Match whole word search button
   {
-    "class": "icon_whole_word",
     "layer0.texture": "Minteresting/Minteresting/wholeword.png",
+    "class": "icon_whole_word",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -804,8 +804,8 @@
   // BOTTOM PANEL ICONS - GROUP 1 (EXTENDED: FIND IN FILES)
   // Show search context button
   {
-    "class": "icon_context",
     "layer0.texture": "Minteresting/Minteresting/context.png",
+    "class": "icon_context",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -817,8 +817,8 @@
   },
   // Use search buffer
   {
-    "class": "icon_use_buffer",
     "layer0.texture": "Minteresting/Minteresting/buffer.png",
+    "class": "icon_use_buffer",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -831,8 +831,8 @@
   // BOTTOM PANEL ICONS - GROUP 2
   // Reverse search direction button (ST2 only)
   {
-    "class": "icon_reverse",
     "layer0.texture": "Minteresting/Minteresting/reverse.png",
+    "class": "icon_reverse",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -844,8 +844,8 @@
   },
   // Search wrap button
   {
-    "class": "icon_wrap",
     "layer0.texture": "Minteresting/Minteresting/wrap.png",
+    "class": "icon_wrap",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -857,8 +857,8 @@
   },
   // Search in selection button
   {
-    "class": "icon_in_selection",
     "layer0.texture": "Minteresting/Minteresting/selection.png",
+    "class": "icon_in_selection",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -871,8 +871,8 @@
   // BOTTOM PANEL ICONS - GROUP 3
   // Preserve case button
   {
-    "class": "icon_preserve_case",
     "layer0.texture": "Minteresting/Minteresting/lock.png",
+    "class": "icon_preserve_case",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
@@ -885,8 +885,8 @@
   // BOTTOM PANEL ICONS - GROUP 4
   // Highlight results button
   {
-    "class": "icon_highlight",
     "layer0.texture": "Minteresting/Minteresting/highlight.png",
+    "class": "icon_highlight",
     "layer0.tint": [128, 128, 128],
     "layer0.opacity": 1,
     "content_margin": 8
