@@ -31,7 +31,7 @@ Activate the theme by adding the following lines to your user preferences config
 
 ### Theme
 
-Theme based on the [Neopolitan](https://github.com/daytonn/Neopolitan) theme. Features a charcoal color that is easy on the eyes for long coding sessions. Hot pink comments beg to be deleted or read.
+Theme based on the [Neopolitan](https://github.com/daytonn/Neopolitan) theme. Features a charcoal color that is easy on the eyes for long coding sessions. Prominent comments beg to be deleted or read. This also helps with code that is documented with comments.
 
 ### Color scheme
 
